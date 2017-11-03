@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "campionatouniversitariomakers",
+  "description": "Simple control panel created during a 4-hour hackaton in Milan (*Campionato Universitario Makers*).",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "serialport": "^6.0.4",
+    "jquery": "^3.2.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francescosgherzi/OCP-Campionato-Universitario-Makers.git"
+  },
+  "author": "Francesco Sgherzi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/francescosgherzi/OCP-Campionato-Universitario-Makers/issues"
+  },
+  "homepage": "https://github.com/francescosgherzi/OCP-Campionato-Universitario-Makers#readme"
+}

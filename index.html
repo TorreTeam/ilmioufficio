@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackaton</title>
+    <!-- Import jquery -->
+
+    <script
+            src="https://code.jquery.com/jquery-3.2.0.min.js"
+            integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I="
+            crossorigin="anonymous"></script>
+
+    <!-- Import materialize.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+</head>
+    <body>
+
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo center">Office Control Panel</a>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col m12 s12">
+                    <h1 class="center">Stanza 1</h1>
+                    <div class="card blue-grey darken-1">
+                        <div class="card-content white-text">
+                            <span class="card-title center">Temperatura</span>
+                            <div class="center">
+                                <p id="temps1">0</p>
+                            </div>
+                        </div>
+                        <!--<div class="card-action">
+                            <a href="#">QUI METTERE SLIDER</a>
+                        </div>-->
+                    </div>
+                    <div class="card blue-grey darken-1">
+                        <div class="card-content white-text">
+                            <span class="card-title center">Umidità</span>
+                            <p class="center" id="hums1">0</p>
+                        </div>
+                    </div>
+                    <div class="card blue-grey darken-1">
+                        <div class="card-content white-text">
+                            <span class="card-title center">Persone</span>
+                            <p class="center" id="peops1">0</p>
+                        </div>
+                        <!--<div class="card-action">
+                            <a href="#">This is a link</a>
+                            <a href="#">This is a link</a>
+                        </div>-->
+                    </div>
+                </div>
+                <div class="col m12 s12">
+                    <h1 class="center">Stanza2</h1>
+                    <div class="card blue-grey darken-1">
+                        <div class="card-content white-text">
+                            <span class="card-title center">Persone</span>
+                            <p class="center" id="peops2">0</p>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="col m12 s12">
+                    <h1 class="center">Stanza 2</h1>
+                    <div class="card blue-grey darken-1">
+                        <div class="card-content white-text">
+                            <span class="card-title center">Temp</span>
+                            <p class="center" id="temps2">0</p>
+                        </div>
+                        &lt;!&ndash;<div class="card-action">
+                            <a href="#">QUI METTERE SLIDER</a>
+                        </div>&ndash;&gt;
+                    </div>
+                    <div class="card blue-grey darken-1">
+                        <div class="card-content white-text">
+                            <span class="card-title center">Umidità</span>
+                            <p class="center" id="hums2">0</p>
+                        </div>
+                        &lt;!&ndash;<div class="card-action">
+                            <a href="#">This is a link</a>
+                            <a href="#">This is a link</a>
+                        </div>&ndash;&gt;
+                    </div>
+                    <div class="card blue-grey darken-1">
+                        <div class="card-content white-text">
+                            <span class="card-title center">Luce</span>
+                            <p class="center" id="lights2">0</p>
+                        </div>
+                        &lt;!&ndash;<div class="card-action">
+                            <a href="#">This is a link</a>
+                            <a href="#">This is a link</a>
+                        </div>&ndash;&gt;
+                    </div>
+                    <div class="card blue-grey darken-1">
+                        <div class="card-content white-text">
+                            <span class="card-title center">Persone</span>
+                            <p class="center" id="peops2">0</p>
+                        </div>
+                        &lt;!&ndash;<div class="card-action">
+                            <a href="#">This is a link</a>
+                            <a href="#">This is a link</a>
+                        </div>&ndash;&gt;
+                    </div>
+                </div>-->
+                <div class="col m12 s12">
+                    <h1 class="center">Esterno</h1>
+                    <div class="col m12 s12">
+                        <div class="card blue-grey darken-1">
+                            <div class="card-content white-text">
+                                <span class="card-title center">Temperatura</span>
+                                <p class="center" id="tempsext">0</p>
+                            </div>
+                            <!--<div class="card-action">
+                                <a href="#">This is a link</a>
+                                <a href="#">This is a link</a>
+                            </div>-->
+                        </div>
+                    </div>
+                    <div class="col m12 s12">
+                        <div class="card blue-grey darken-1">
+                            <div class="card-content white-text">
+                                <span class="card-title center">Luce</span>
+                                <p class="center" id="lightext">0</p>
+                            </div>
+                            <!--<div class="card-action">
+                                <a href="#">This is a link</a>
+                                <a href="#">This is a link</a>
+                            </div>-->
+                        </div>
+                    </div>
+                    <!--<div class="col m4 s12">
+                        <div class="card blue-grey darken-1">
+                            <div class="card-content white-text">
+                                <span class="card-title center">Luce</span>
+                                <p class=center>0</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">This is a link</a>
+                                <a href="#">This is a link</a>
+                            </div>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>
