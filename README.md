@@ -11,7 +11,7 @@ The Arduino communicates with a small node server (my computer) with the serial 
 The Control Panel looks for a file (data.json) and displays it in a web app, built using materialize.css for styling.
 
 ## Support!
-If you like our project, please, like [this photo](https://www.facebook.com/CampUniMakers/photos/a.1991440304407389.1073741836.1912678415616912/1991440764407343/?type=3&theater)to help us win the attendence at Maker Faire Rome!
+If you like our project, please, like [this photo](https://www.facebook.com/CampUniMakers/photos/a.1991440304407389.1073741836.1912678415616912/1991440764407343/?type=3&theater) to help us win the attendence at Maker Faire Rome!
 
 ### Installation
 Run `npm install ` to install the modules in package.json and  ` node server.js` to start the server.
